@@ -30,7 +30,7 @@ El comando nos dirá si lo encontró, su id y también nos dará un ejemplo del 
     ishare2 pull bin 6
     ishare2 pull bin 19
 
-Al ejecutar los comandos y si no hay ningún problema con la descarga, los dispositivos ya deberían quedar disponibles para usarlos en nuestro PNETLab.
+Al ejecutar los comandos y si no hay ningún problema con la descarga, se nos debería mostrar el texto " [+] Fix permissions command has been executed correctly", entonces los dispositivos ya deberían quedar disponibles para usarlos en nuestro PNETLab.
 
 # Instalación de Wireshark
 
