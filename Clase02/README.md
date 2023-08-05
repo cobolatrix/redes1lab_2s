@@ -13,6 +13,14 @@ Para instalar ishare2 recomiendo copiar y correr este comando, esto debido a que
 
     wget -O /usr/sbin/ishare2 https://raw.githubusercontent.com/ishare2-org/ishare2-cli/main/ishare2 > /dev/null 2>&1 && chmod +x /usr/sbin/ishare2 && ishare2
 
+## Importante
+
+Al instalarse el ishare2 se agregó una entrada erronea a la lista de repositorios del sistema operativo, necesitamos comentarla, eso se logra con el comando:
+
+    nano /etc/apt/sources.list
+
+Poniendole un # en la última línea (la que dice algo así como i-share.top) y guardando el archivo con ctrl + x y luego Y.
+
 Luego, usando el comando ishare2 search <nombre de la imagen> podremos encontrar los dispositivos a usar, por ejemplo:
 
     ishare2 search i86bi_linux_l2-adventerprisek9-ms.SSA.high_iron_20190423.bin
@@ -32,5 +40,5 @@ Es importante que al momento de instalarlo marquemos la opción en "Tool" que di
 
 ![Alt text](<img/Captura de pantalla 2023-08-04 134322.png>)
 
-Para el desarrollo del laboratorio pueden usar el Wireshak instalado en su sistema operativo o el interno del PNETLab, la instalación y uso de este segundo se explicará en el laboratorio.
+Para el desarrollo del laboratorio pueden usar el Wireshark instalado en su sistema operativo o el interno del PNETLab, la instalación y uso de este segundo se explicará en el laboratorio.
 
